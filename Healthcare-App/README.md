@@ -1,7 +1,7 @@
 # Heathcare_App
 
-This repository contains the source code of Heathcare App
-
+This repository contains the source code of Heathcare App<br>
+The healthcare app aims to spread the awareness related to <b>Menstrual Hygiene</b> in rural areas.
 <br>
 
 ## Proposed Mockups of HealthCare App
