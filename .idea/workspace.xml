@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="eef2c769-df3f-4d7b-9fb8-b74844a31672" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/Healthcare-App/.dart_tool/package_config.json" beforeDir="false" afterPath="$PROJECT_DIR$/Healthcare-App/.dart_tool/package_config.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Healthcare-App/.packages" beforeDir="false" afterPath="$PROJECT_DIR$/Healthcare-App/.packages" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Healthcare-App/android/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Healthcare-App/android/gradle.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Healthcare-App/android/local.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Healthcare-App/android/local.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Healthcare-App/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Healthcare-App/pubspec.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Images/Image1.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Images/Image2.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Images/Image3.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Images/Image4.jpeg" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1mWYN8RiRkNICuzGtVplgv7erGi" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="flutter run" />
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="eef2c769-df3f-4d7b-9fb8-b74844a31672" name="Default Changelist" comment="" />
+      <created>1609610770215</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1609610770215</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1609611609885">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1609611609885" />
+    <state x="93" y="93" width="1350" height="638" key="AVDManager" timestamp="1609611860965">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="93" y="93" width="1350" height="638" key="AVDManager/0.0.1536.824@0.0.1536.824" timestamp="1609611860965" />
+    <state x="277" y="0" key="SettingsEditor" timestamp="1609611040827">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="277" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1609611040827" />
+    <state x="426" y="189" width="672" height="677" key="run.anything.popup" timestamp="1609611623280">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="426" y="189" width="672" height="677" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1609611623280" />
+  </component>
+</project>
