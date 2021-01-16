@@ -6,9 +6,14 @@ The healthcare app aims to spread the awareness related to <b>Menstrual Hygiene<
 
 ## Proposed Mockups of HealthCare App
 
-![alt text](pg_1.png)
-![alt text](pg_2.png)
+![alt text](pg_1.png)<br/>
+![alt text](pg_2.png)<br/>
 ![alt text](pg_3.png)
+
+## Color palette
+
+Proposed color palette to be used in the app for the consistent User interface
+![alt text](palette.png)
 
 ## Getting Started
 
