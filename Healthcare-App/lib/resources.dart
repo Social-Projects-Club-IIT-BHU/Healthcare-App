@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
 import 'awareness.dart';
+import 'myth.dart';
 
-class SecondPage extends StatelessWidget {
+class ResourcePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -29,13 +30,23 @@ class SecondPage extends StatelessWidget {
                   color: Colors.red[500],
                 ),
                 borderRadius: BorderRadius.all(Radius.circular(10))),
-            child: Padding(
-              padding: EdgeInsets.all(5.00),
-              child: Text(
-                'Myths',
-                style: TextStyle(
-                  color: Colors.black,
-                  fontSize: 20.00,
+            child: RaisedButton(
+              onPressed: () {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                    builder: (context) => MythPage(),
+                  ),
+                );
+              },
+              child: Padding(
+                padding: EdgeInsets.all(5.00),
+                child: Text(
+                  'Myths',
+                  style: TextStyle(
+                    color: Colors.black,
+                    fontSize: 20.00,
+                  ),
                 ),
               ),
             ),
