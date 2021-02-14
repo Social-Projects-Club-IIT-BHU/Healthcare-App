@@ -23,7 +23,9 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-
+  hexcolor: ^1.0.6
+  # flutter_swiper: ^1.1.6
+  carousel_slider: ^3.0.0
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.0
@@ -48,6 +50,13 @@ flutter:
     - Images/Image2.jpeg
     - Images/Image3.jpeg
     - Images/Image4.jpeg
+    - Images/1.png
+    - Images/2.png
+    - Images/3.png
+    - Images/4.png
+    - Images/5.png
+    - Images/6.png
+    - Images/7.png
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.
