@@ -16,7 +16,7 @@ class MythPage extends StatelessWidget {
           options: CarouselOptions(
             height: 1000,
             autoPlay: true,
-            autoPlayInterval: Duration(seconds: 40),
+            autoPlayInterval: Duration(seconds: 5),
             autoPlayAnimationDuration: Duration(milliseconds: 800),
             autoPlayCurve: Curves.fastOutSlowIn,
             enlargeCenterPage: true,
