@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'awareness.dart';
 import 'myth.dart';
+import 'nutrition.dart';
+import 'exercises.dart';
 
 class ResourcePage extends StatelessWidget {
   @override
@@ -55,7 +57,7 @@ class ResourcePage extends StatelessWidget {
             height: 10.00,
           ),
           Container(
-              width: MediaQuery.of(context).size.width,
+              width: 300.00,
               height: 40.00,
               decoration: BoxDecoration(
                   border: Border.all(
@@ -91,13 +93,23 @@ class ResourcePage extends StatelessWidget {
                   color: Colors.red[500],
                 ),
                 borderRadius: BorderRadius.all(Radius.circular(10))),
-            child: Padding(
-              padding: EdgeInsets.all(5.00),
-              child: Text(
-                'Yoga & Exercises',
-                style: TextStyle(
-                  color: Colors.black,
-                  fontSize: 20.00,
+            child: RaisedButton(
+              onPressed: () {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                    builder: (context) => ExercisePage(),
+                  ),
+                );
+              },
+              child: Padding(
+                padding: EdgeInsets.all(5.00),
+                child: Text(
+                  'Yoga and Exercises',
+                  style: TextStyle(
+                    color: Colors.black,
+                    fontSize: 20.00,
+                  ),
                 ),
               ),
             ),
@@ -113,35 +125,23 @@ class ResourcePage extends StatelessWidget {
                   color: Colors.red[500],
                 ),
                 borderRadius: BorderRadius.all(Radius.circular(10))),
-            child: Padding(
-              padding: EdgeInsets.all(5.00),
-              child: Text(
-                'Diseases',
-                style: TextStyle(
-                  color: Colors.black,
-                  fontSize: 20.00,
-                ),
-              ),
-            ),
-          ),
-          SizedBox(
-            height: 10.00,
-          ),
-          Container(
-            width: 300.00,
-            height: 40.00,
-            decoration: BoxDecoration(
-                border: Border.all(
-                  color: Colors.red[500],
-                ),
-                borderRadius: BorderRadius.all(Radius.circular(10))),
-            child: Padding(
-              padding: EdgeInsets.all(5.00),
-              child: Text(
-                'Nutrition & Diet',
-                style: TextStyle(
-                  color: Colors.black,
-                  fontSize: 20.00,
+            child: RaisedButton(
+              onPressed: () {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                    builder: (context) => NutritionPage(),
+                  ),
+                );
+              },
+              child: Padding(
+                padding: EdgeInsets.all(5.00),
+                child: Text(
+                  'Nutrition and diet',
+                  style: TextStyle(
+                    color: Colors.black,
+                    fontSize: 20.00,
+                  ),
                 ),
               ),
             ),

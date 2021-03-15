@@ -57,6 +57,61 @@ flutter:
     - Images/5.png
     - Images/6.png
     - Images/7.png
+    - Images/Adho_mukha_svasana.jpg
+    - Images/Alcohol.jpg
+    - Images/Asthma.jpg
+    - Images/Bhandas.jpg
+    - Images/Biscuit.jpg
+    - Images/Bridge_pose.jpg
+    - Images/Camel_pose.jpg
+    - Images/cloth_pads.jpg
+    - Images/cobbler_pose.jpg
+    - Images/Crunches.jpg
+    - Images/Crunches1.jpg
+    - Images/Dhanurasana.png
+    - Images/DirtyClothes.jpg
+    - Images/DriedClothes.jpg
+    - Images/Fat fod.jpg
+    - Images/FriedFood.jpg
+    - Images/Fruits.jpg
+    - Images/Fruits2.jpg
+    - Images/Garland_pose.jpg
+    - Images/Glute_lifts.jpg
+    - Images/head_to_knee.jpg
+    - Images/Heart_attack.jpg
+    - Images/Inversions.jpg
+    - Images/Inversions1.jpg
+    - Images/Iron_rich_food.jpg
+    - Images/Legumes.jpg
+    - Images/matsyasana.jpg
+    - Images/Menstrual_Cramps.jpg
+    - Images/Menstrual_cup.jpg
+    - Images/MenstrualHygiene.jpg
+    - Images/Menstruation.jpg
+    - Images/Oil.jpg
+    - Images/Osteoporosis.jpg
+    - Images/Pelvic_tucks.jpg
+    - Images/Pepsi.jpg
+    - Images/PMS.jpg
+    - Images/Refined_Grains.jpg
+    - Images/Running.jpg
+    - Images/Salt.jpg
+    - Images/Sanitary_pads.jpg
+    - Images/Seated_forward_bend.jpg
+    - Images/Seated_straddle.jpg
+    - Images/Squat_jumps.png
+    - Images/Standing_twist.jpg
+    - Images/sugar.jpg
+    - Images/Tampons.jpg
+    - Images/Tofu.jpg
+    - Images/Top_taps.jpg
+    - Images/Vegetables.jpg
+    - Images/Very_strong_asanas.jpg
+    - Images/Walking.jpg
+    - Images/Water.jpg
+    - Images/Yogurt.jpg
+    
+
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.

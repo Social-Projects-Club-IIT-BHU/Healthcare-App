@@ -10,7 +10,9 @@ void main() {
 class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(home: MyHome());
+    return MaterialApp(
+      home: MyHome(),
+    );
   }
 }
 
@@ -34,13 +36,13 @@ class MyHome extends StatelessWidget {
         backgroundColor: HexColor("#ffe91e63"),
       ),
       body: Container(
-        // color: HexColor("#ffffffff"), Use this to change the color of the  background of the main page.
+        // color: HexColor("#ff1ee9a4"),
         child: Row(
           children: <Widget>[
             Column(
               children: <Widget>[
                 SizedBox(
-                  height: 20.00,
+                  height: 50.00,
                 ),
                 Material(
                   shape: CircleBorder(),
@@ -71,18 +73,27 @@ class MyHome extends StatelessWidget {
                   ),
                 ),
                 SizedBox(
-                  height: 50.00,
+                  height: 70.00,
                 ),
-                RawMaterialButton(
-                  onPressed: () {},
-                  // fillColor: HexColor("#ffff4081"),
-                  child: Image(
+                Material(
+                  shape: CircleBorder(),
+                  clipBehavior: Clip.hardEdge,
+                  color: Colors.transparent,
+                  child: Ink.image(
                     image: AssetImage("Images/Image3.jpeg"),
                     width: 120.0,
                     height: 120.0,
+                    child: InkWell(
+                      onTap: () {
+                        Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                            builder: (context) => ResourcePage(),
+                          ),
+                        );
+                      },
+                    ),
                   ),
-                  padding: EdgeInsets.all(15.0),
-                  shape: CircleBorder(),
                 ),
                 Text(
                   'PERIOD TRACKER',
@@ -100,11 +111,27 @@ class MyHome extends StatelessWidget {
             Column(
               children: <Widget>[
                 SizedBox(
-                  height: 100.00,
+                  height: 150.00,
                 ),
-                CircleAvatar(
-                  radius: 80.00,
-                  backgroundImage: AssetImage('Images/Image2.jpeg'),
+                Material(
+                  shape: CircleBorder(),
+                  clipBehavior: Clip.hardEdge,
+                  color: Colors.transparent,
+                  child: Ink.image(
+                    image: AssetImage("Images/Image2.jpeg"),
+                    width: 120.0,
+                    height: 120.0,
+                    child: InkWell(
+                      onTap: () {
+                        Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                            builder: (context) => ResourcePage(),
+                          ),
+                        );
+                      },
+                    ),
+                  ),
                 ),
                 Text(
                   'STORIES',
@@ -115,11 +142,27 @@ class MyHome extends StatelessWidget {
                   ),
                 ),
                 SizedBox(
-                  height: 50.00,
+                  height: 70.00,
                 ),
-                CircleAvatar(
-                  radius: 80.00,
-                  backgroundImage: AssetImage('Images/Image1.jpeg'),
+                Material(
+                  shape: CircleBorder(),
+                  clipBehavior: Clip.hardEdge,
+                  color: Colors.transparent,
+                  child: Ink.image(
+                    image: AssetImage("Images/Image1.jpeg"),
+                    width: 120.0,
+                    height: 120.0,
+                    child: InkWell(
+                      onTap: () {
+                        Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                            builder: (context) => ResourcePage(),
+                          ),
+                        );
+                      },
+                    ),
+                  ),
                 ),
                 Text(
                   'ABOUT US',
