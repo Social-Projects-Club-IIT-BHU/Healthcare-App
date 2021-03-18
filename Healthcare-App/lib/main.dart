@@ -2,6 +2,7 @@ import 'dart:ui';
 import 'package:hexcolor/hexcolor.dart'; // make easier to use hex code to set the color
 import 'package:flutter/material.dart';
 import 'resources.dart';
+import 'About.dart';
 
 void main() {
   runApp(MyApp());
@@ -157,7 +158,7 @@ class MyHome extends StatelessWidget {
                         Navigator.push(
                           context,
                           MaterialPageRoute(
-                            builder: (context) => ResourcePage(),
+                            builder: (context) => AboutPage(),
                           ),
                         );
                       },

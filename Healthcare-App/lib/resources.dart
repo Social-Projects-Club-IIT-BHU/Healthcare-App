@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:hexcolor/hexcolor.dart'; // make easier to use hex code to set the color
 import 'awareness.dart';
 import 'myth.dart';
 import 'nutrition.dart';
@@ -9,16 +10,18 @@ class ResourcePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: Colors.pinkAccent,
+        backgroundColor: HexColor("#ffe91e63"),
       ),
       body: Column(
         children: <Widget>[
-          Text(
-            'RESOURCES',
-            style: TextStyle(
-              fontSize: 45.00,
-              color: Colors.black,
-              fontWeight: FontWeight.bold,
+          Center(
+            child: Text(
+              'RESOURCES',
+              style: TextStyle(
+                fontSize: 45.00,
+                color: Colors.black,
+                fontWeight: FontWeight.bold,
+              ),
             ),
           ),
           SizedBox(
